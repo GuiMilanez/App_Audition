@@ -35,7 +35,7 @@ class AppsController < ApplicationController
               id: app.id,
               name: app.name,
             }
-        end 
+        end
       end
     end
   end
