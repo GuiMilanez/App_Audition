@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Thanks for viewing my Rails App!!
 
-Things you may want to cover:
+please `git clone https://github.com/GuiMilanez/App_Audition.git` into your directory and `cd` into it
 
-* Ruby version
+run `rails db:migrate db:seed` in order to create the App seeds in the database
 
-* System dependencies
 
-* Configuration
+Testing:
+for testing, I've created the file spec/models/app_spec.rb
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+please run `rspec -fd` to test results
