@@ -1,5 +1,5 @@
  n = 0
- 50.times do
+ 1000.times do
   App.find_or_create_by(
     name:  "my-app-#{"%03d" % (n += 1)}",  
     )
