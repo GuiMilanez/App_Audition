@@ -1,6 +1,6 @@
 class AppsController < ApplicationController
   def index
-    @apps = App.order(:id).page params[:page]
+    @apps = App.page params[:page]
 
     if params[:order]
       @apps = @apps.order(id: params[:order])
